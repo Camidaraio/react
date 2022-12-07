@@ -1,15 +1,20 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import Title from './Components/Title';
 import './App.css';
+import Mascota from './Components/Mascota';
 
 function App() {
   return (
     <div className="App">
+      <Title />
+      <Mascota /> 
       <header className="App-header">
         <img src="images/gato.jpg" alt="Gato" />
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
+       
+      { /* <img src={logo} className="App-logo" alt="logo" /> */}
+      { /* <p>
           Edit <code>src/App.js</code> and save to reload.
-        </p>
+        </p> */}
         <a
           className="App-link"
           href="https://reactjs.org"
