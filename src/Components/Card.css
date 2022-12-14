@@ -1,0 +1,21 @@
+
+
+.card {
+    max-width: 250px;
+    background-color:white ;
+    border: 8px solid #aad;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    box-shadow: 0 0 2px #ccc;
+}
+
+.card-img {
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+}
+
+.gratis {
+    color: green;
+    font-size: 18px;
+    font-style: italic;
+}
