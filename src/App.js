@@ -4,11 +4,24 @@ import './App.css';
 import Mascota from './Components/Mascota';
 import Card from './Components/Card';
 
+import Navegacion from './Components/Navegacion';
 
 function App() {
+  const numeros = [45, 78, 12, 787, 341];
+
   return (
     <div className="App">
-      <Title />
+    {numeros.map(numero => (
+      <p>El numero es: {numero}</p>
+    ))
+    }
+    
+     {/* Llamamos al componente y le enviamos el parametro */}
+
+      <Title 
+        titulo={"Hola,como va"}
+        subtitulo={ "Este es subtitulo del Title"}
+      />
       <Card />
       <Mascota /> 
       <header className="App-header">
@@ -32,3 +45,5 @@ function App() {
 }
 
 export default App;
+
+ /* <Navegacion /> */
