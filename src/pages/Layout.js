@@ -11,6 +11,7 @@ export default function layout () {
              contenido de cada pagina
             */}
             <Outlet/>
+            FOOTER
         </>
     )
 }
