@@ -2,21 +2,21 @@
     {
         "titulo": "Gato",
         "imagen": "images/gato.jpg",
-        "precio": "13662",
+        "precio": "$13662",
         "envio_gratis": true
         
     },
     {
         "titulo": "Iphone 14",
         "imagen": "images/iphone.jpg",
-        "precio": "1398usd",
+        "precio": "$1398",
         "envio_gratis": false
 
     },
     {
         "titulo": "Iphone 13",
         "imagen": "images/iphone2.jpg",
-        "precio": "813usd",
+        "precio": "$813usd",
         "envio_gratis": false
 
        
@@ -24,7 +24,7 @@
     {
         "titulo": "Iphone 12",
         "imagen": "images/iphone3.jpg",
-        "precio": "700usd",
+        "precio": "$700usd",
         "envio_gratis": false
 
 
